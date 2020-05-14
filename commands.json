@@ -1,0 +1,153 @@
+{"help":{
+"alias":"無し",
+"command":"",
+"description":"通常コマンドの一覧を表示します"},
+"help_info":{
+"alias":".hi",
+"command":" [コマンド]",
+"description":"コマンドの詳細を表示します"},
+"help_administrator":{
+"alias":".ha",
+"command":"",
+"description":"管理者用コマンドの一覧を表示します"},
+"other":{
+"alias":"なし",
+"command":"",
+"description":"BOTの情報を取得します"},
+"ui":{
+"alias":"なし",
+"command":" [id]",
+"description":"ユーザー情報を表示します(`id`は任意)"},
+"avatar":{
+"alias":"なし",
+"command":" [id]",
+"description":"アイコン画像を表示します(`id`は任意)"},
+"level":{
+"alias":"なし",
+"command":" [id]",
+"description":"レベルを表示します(`id`は任意)"},
+"servers":{
+"alias":"なし",
+"command":"",
+"description":"導入サーバーを表示します"},
+"guild_info":{
+"alias":".gi",
+"command":" [id]",
+"description":"サーバー情報を表示します(`id`は任意)"},
+"guild_operators":{
+"alias":".go",
+"command":"",
+"description":"サーバーの管理者を表示します"},
+"premium_subscribers":{
+"alias":".ps",
+"command":"",
+"description":"サーバーのブースト者を表示します"},
+"bans":{
+"alias":"なし",
+"command":"",
+"description":"BANされたメンバーの一覧を表示します"},
+"ban_info":{
+"alias":".bi",
+"command":" [id]",
+"description":"BANされたメンバーの情報を表示します"},
+"latency":{
+"alias":"なし",
+"command":"",
+"description":"BOTのレイテンシを表示します"},
+"search":{
+"alias":"なし",
+"command":" [ワード]",
+"description":"`ワード`について検索します"},
+"translate":{
+"alias":".tl",
+"command":" [言語] [ワード]",
+"description":"`ワード`を`言語`に翻訳します"},
+"translate_help":{
+"alias":".tlh",
+"command":"",
+"description":"翻訳に関するヘルプを表示します"},
+"weather":{
+"alias":"なし",
+"command":" [地名]",
+"description":"`地名`の天気を調べます"},
+"weather_help":{
+"alias":".wh",
+"command":" [地方名]",
+"description":"検索可能な地名を表示します(`地方名`は任意)"},
+"say":{
+"alias":"なし",
+"command":" [ワード]",
+"description":"ワードとBOTが発言します"},
+"おみくじ":{
+"alias":"なし",
+"command":"",
+"description":"おみくじを引きます"},
+"じゃんけん":{
+"alias":"janken",
+"command":" [g/c/p]",
+"description":"じゃんけんをします"},
+"dice":{
+"alias":"なし",
+"command":"",
+"description":"サイコロを2つ振ります"},
+"alarm":{
+"alias":"なし",
+"command":" [時間] [分]",
+"description":"アラームを設定します(時刻になるとDMに送信されます)"},
+"dict_add":{
+"alias":".da",
+"command":" [key] [value]",
+"description":"keyと対応するvalueを登録します"},
+"dict_delete":{
+"alias":".dd",
+"command":" [key]",
+"description":"keyと対応するvalueを削除します"},
+"dict_edit":{
+"alias":".de",
+"command":" [key] [value]",
+"description":"keyに対応するvalueを編集します"},
+"dict_say":{
+"alias":".ds",
+"command":" [key]",
+"description":"keyに対応するvalueをBOTが発言します"},
+"global":{
+"alias":"なし",
+"command":"",
+"description":"globalchatに登録します\n(入力したチャンネルがglobalchatになります)"},
+"globalexcept":{
+"alias":".ge",
+"command":" [オプション]",
+"description":"ユーザーをglobalchatから除外します"},
+"role":{
+"alias":"なし",
+"command":" [オプション]",
+"description":"役職について操作します"},
+"count":{
+"alias":"なし",
+"command":" [オプション]",
+"description":"カウンターについて操作します"},
+"kick":{
+"alias":"なし",
+"command":" [name/id] [理由]",
+"description":"メンバーを退出させます"},
+"ban":{
+"alias":"なし",
+"command":" [name/id] [理由]",
+"description":"メンバーを接続禁止にします"},
+"unban":{
+"alias":"なし",
+"command":" [name/id] [理由]",
+"description":"ユーザーの接続禁止を解除します"},
+"set_join_message":{
+"alias":".sjm",
+"command":" [message]",
+"description":"参加時のメッセージを設定します"},
+"set_levelup_message":{
+"alias":".slm",
+"command":" [message]",
+"description":"レベルアップ時のメッセージを設定します\n(入力したチャンネルが送信チャンネルになります)"},
+"set_levelup_add_role":{
+"alias":".slr",
+"command":" [オプション]",
+"description":"レベルアップ時に付与する役職について操作します"}
+}

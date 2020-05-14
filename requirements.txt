@@ -1,0 +1,7 @@
+discord.py
+asyncio
+google
+googletrans
+websockets
+urllib3
+requests

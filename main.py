@@ -9,9 +9,10 @@ import sys
 import discord
 import asyncio
 import json
+import os
 
 developer_id = [536506865883021323, 537031688610512896]
-
+token = os.environ['TOKEN']
 extension = [
   'cogs.bot_event',
   'cogs.fun_dict',
@@ -71,4 +72,4 @@ if __name__ == '__main__':
   with open("token.json", "r", encoding="utf-8") as token: TOKEN = json.load(token)
   loop.start()
   loop_.start()
-  bot.run(TOKEN["TOKEN"])
+  bot.run(token)
